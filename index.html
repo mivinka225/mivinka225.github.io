@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang=ru>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/normalize.css.css">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/my%20style/style.css">
+    <title>FreeVape</title>
+</head>
+
+<body>
+<main class="content">
+    <section class="container-fluid vh-100 main-screen">
+        <div class="vh-100 container d-flex flex-column justify-content-between">
+            <div class="void"></div>
+            <div class="void"></div>
+            <h1><p class="text-center a" onClick="firstfunction()" id = "first">FreeVape</p></h1>
+            <nav class="row text-center main-screen_menu">
+                <a href="#catalog" class="col-4 main-screen_catalog">Каталог</a>
+                <a href="#make-order" class="col-4 main-screen_make-order">Заказать</a>
+                <a href="#about-us" class="col-4 main-screen_about-us">О нас</a>
+            </nav>
+            <div class="void"></div>
+        </div>
+    </section>
+    <section class="container-fluid text-center catalog bg-secondary" id="catalog">
+        <p class="catalog-text">У нас есть электронные сигареты от компаний:</p>
+        <div class="container">
+            <div class="catalog-menu row">
+                <div class="col-12 col-md-4">
+                    <p>Elf Bar</p>
+                    <div class="img elfbar"></div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <p>HQD</p>
+                    <div class="img hqd"></div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <p>Vaporesso</p>
+                    <div class="img pod"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid text-center make-order bg-danger text-light" id="make-order">
+        <div class="container">
+            <p>К сожалению, заказ товаров временно недоступен, для того чтобы получить товар, придите на адрес ул. Пушкина 69</p>
+        </div>
+    </section>
+    <section id="about-us" class="container-fluid text-center about-us1 bg-secondary">
+        <div class="container row">
+            <div class="img col-8 col-md-5 top1"></div>
+            <div class="col-md-1"></div>
+            <div class="text col-12 col-md-6">
+                <p class="title">Обязательно заходите в наш шоп!</p>
+                <p class="description">Мы с радостью поможем вам выбрать правильный агрегат для спокойного чила!<br><br>
+                    Поверьте нашим словам: ни один клиент не ушел от нас без пара! Наш ассортимент поразит ваше сознание, вы не поверите о его количестве!</p>
+            </div>
+            <div class="img col-4  col-md-5 top2"></div>
+        </div>
+    </section>
+    <section class="container-fluid text-center about-us2 bg-secondary">
+        <p class="personal-text">Работаем уже более 10 лет</p>
+        <div class="container">
+            <div class="personal row">
+                <div class="col-12 col-md-4">
+                    <div class="img worker1"></div>
+                    <p>Саня Петров</p>
+                    <p>Стаж: меньше года</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="img worker2"></div>
+                    <p>Дмитрий Беляев</p>
+                    <p>Стаж: 6.9 лет</p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="img worker3"></div>
+                    <p>Игорь Васильевич</p>
+                    <p>Стаж: 11 лет</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
